@@ -1,0 +1,42 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .page-link {
+    color: #007bff;
+  }
+  
+  .page-link:hover {
+    color: #0056b3;
+  }
+  
+  .page-link:focus {
+    box-shadow: none;
+  }
+  

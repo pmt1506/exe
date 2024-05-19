@@ -1,0 +1,45 @@
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.card-title a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  text-decoration: underline;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.testimonial-heading {
+  text-align: center;
+}
+
+.testimonial-card {
+  margin-bottom: 20px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-square-wrapper {
+  flex: 0 0 auto;
+  width: 150px; /* Set the width of the image */
+}
+
+.img-square-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  flex: 1;
+}
